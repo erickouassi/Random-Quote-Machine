@@ -1,1 +1,47 @@
+.container{
+  background: #ccc;
+  width: auto;
+  height: auto;
+  margin: 100px auto; 
+  padding: 30px;
+}
+h1{
+  text-align: center;
+}
+#text{
+  color: green;
+  text-align: center;
+  font-size: 26px;
+}
+#author{
+  color: blue;
+  text-align: center;
+  font-size: 22px;
+}
+.btn{
+  height:40px;
+  width:150px,
+  margin: 10px auto; 
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn{
+  -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+#new-quote{
+  text-align: center;
+  border: 2px solid green;
+}
 
+#tweet-quote{
+  border: 2px solid blue;
+}
+#contact-us{
+  text-align: center;
+}
